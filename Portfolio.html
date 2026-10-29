@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic Portfolio of Priyanshi Bhati - B.Tech CS (AI & ML) student at Newton School of Technology, Pune. Quant enthusiast and creative explorer.">
+  <title>Priyanshi Bhati | Academic Portfolio ✨</title>
+  
+  <!-- Google Fonts: Fredoka & Quicksand for headings, Nunito for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Drifting Pastel Background Elements -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="pastel-blob blob-1"></div>
+    <div class="pastel-blob blob-2"></div>
+    <div class="pastel-blob blob-3"></div>
+    <div class="pastel-blob blob-4"></div>
+    <div class="pastel-blob blob-5"></div>
+    
+    <!-- Drifting Clouds -->
+    <div class="cloud cloud-1">☁️</div>
+    <div class="cloud cloud-2">☁️</div>
+    <div class="cloud cloud-3">☁️</div>
+    
+    <!-- Floating Stars -->
+    <div class="star star-1">✦</div>
+    <div class="star star-2">★</div>
+    <div class="star star-3">✦</div>
+    <div class="star star-4">✧</div>
+    <div class="star star-5">★</div>
+    <div class="star star-6">✦</div>
+  </div>
+
+  <!-- Top Pill-Style Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="pill-navbar" aria-label="Main Navigation">
+      <a href="#home" class="brand-link" aria-label="Priyanshi Bhati Home">
+        <span class="brand-emoji">🌸</span>
+        <span class="brand-name">Priyanshi</span>
+      </a>
+      
+      <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-pill active" data-index="0"><span class="pill-icon">✨</span> Home</a></li>
+        <li><a href="#about" class="nav-pill" data-index="1"><span class="pill-icon">🎀</span> About</a></li>
+        <li><a href="#college" class="nav-pill" data-index="2"><span class="pill-icon">🎓</span> College Life</a></li>
+        <li><a href="#hobbies" class="nav-pill" data-index="3"><span class="pill-icon">🎨</span> Hobbies</a></li>
+        <li><a href="#thankyou" class="nav-pill" data-index="4"><span class="pill-icon">💖</span> Thanks</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Side Dot Indicators -->
+  <aside class="side-dots-nav" aria-label="Page navigation dots">
+    <button class="side-dot active" data-index="0" aria-label="Go to Home section">
+      <span class="dot-tooltip">Home</span>
+    </button>
+    <button class="side-dot" data-index="1" aria-label="Go to About section">
+      <span class="dot-tooltip">About</span>
+    </button>
+    <button class="side-dot" data-index="2" aria-label="Go to College Life section">
+      <span class="dot-tooltip">College Life</span>
+    </button>
+    <button class="side-dot" data-index="3" aria-label="Go to Hobbies section">
+      <span class="dot-tooltip">Hobbies</span>
+    </button>
+    <button class="side-dot" data-index="4" aria-label="Go to Thank You section">
+      <span class="dot-tooltip">Thanks</span>
+    </button>
+  </aside>
+
+  <!-- Floating Next / Previous Quick Navigation Buttons -->
+  <div class="nav-arrows" aria-label="Page navigation arrows">
+    <button id="prev-page-btn" class="nav-arrow-btn" aria-label="Previous Page" title="Previous Page (Up/Left Arrow)">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+    <button id="next-page-btn" class="nav-arrow-btn" aria-label="Next Page" title="Next Page (Down/Right Arrow)">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+
+  <!-- Main Full-Screen Pages Container -->
+  <main class="portfolio-container" id="main-container">
+
+    <!-- ============================================== -->
+    <!-- PAGE 1: HOME / GREETING                        -->
+    <!-- ============================================== -->
+    <section class="page-section active" id="home" data-page="0">
+      <div class="section-content hero-content">
+        
+        <!-- Cute Cartoon Girl Illustration (Inline SVG) -->
+        <div class="hero-character-wrap">
+          <div class="character-backdrop-glow"></div>
+          
+          <svg class="character-illustration" viewBox="0 0 320 320" width="280" height="280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cute pastel cartoon girl with round glasses and wavy brown hair smiling">
+            <defs>
+              <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FADADD"/>
+                <stop offset="50%" stop-color="#E6E0F8"/>
+                <stop offset="100%" stop-color="#D6EAF8"/>
+              </linearGradient>
+              <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#543D2B"/>
+                <stop offset="60%" stop-color="#422D1E"/>
+                <stop offset="100%" stop-color="#332115"/>
+              </linearGradient>
+              <linearGradient id="sweaterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#E6E0F8"/>
+                <stop offset="100%" stop-color="#D5F2E3"/>
+              </linearGradient>
+              <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+                <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#5B4B6B" flood-opacity="0.12"/>
+              </filter>
+            </defs>
+
+            <!-- Background Aesthetic Halo -->
+            <circle cx="160" cy="160" r="135" fill="url(#avatarGrad)" filter="url(#softShadow)" opacity="0.85"/>
+            <circle cx="160" cy="160" r="125" fill="#FFFFFF" opacity="0.6"/>
+
+            <!-- Back Hair Mass (Wavy locks falling behind shoulders) -->
+            <g class="character-back-hair" fill="url(#hairGrad)">
+              <!-- Left wavy back hair -->
+              <path d="M95 140 C80 180 75 220 90 255 C100 270 125 260 120 240 C110 205 115 170 125 150 Z"/>
+              <!-- Right wavy back hair -->
+              <path d="M225 140 C240 180 245 220 230 255 C220 270 195 260 200 240 C210 205 205 170 195 150 Z"/>
+              <!-- Bottom back hair curl volume -->
+              <path d="M100 170 C100 245 220 245 220 170 C230 250 90 250 100 170 Z"/>
+            </g>
+
+            <!-- Body / Shoulders & Cozy Pastel Knit Sweater -->
+            <g class="character-body">
+              <!-- Neck -->
+              <rect x="146" y="180" width="28" height="28" rx="8" fill="#FCD9C7"/>
+              <ellipse cx="160" cy="190" rx="14" ry="4" fill="#EBB9A1" opacity="0.4"/>
+              
+              <!-- Sweater Shoulders -->
+              <path d="M90 280 C90 220 125 200 160 200 C195 200 230 220 230 280 C230 295 90 295 90 280 Z" fill="url(#sweaterGrad)"/>
+              
+              <!-- Cozy Collar (Peter Pan / Scalloped style) -->
+              <path d="M135 200 C145 215 158 215 160 205 C162 215 175 215 185 200 C172 203 148 203 135 200 Z" fill="#FFF4CC"/>
+              
+              <!-- Cute pastel button / star brooch -->
+              <circle cx="160" cy="225" r="4.5" fill="#FADADD"/>
+              <circle cx="160" cy="242" r="4.5" fill="#D6EAF8"/>
+            </g>
+
+            <!-- Head & Face -->
+            <g class="character-head">
+              <!-- Face Shape -->
+              <ellipse cx="160" cy="148" rx="52" ry="50" fill="#FCE2D4"/>
+              
+              <!-- Cute Pink Blushing Cheeks -->
+              <ellipse cx="126" cy="162" rx="11" ry="6" fill="#FFAAA6" opacity="0.6"/>
+              <ellipse cx="194" cy="162" rx="11" ry="6" fill="#FFAAA6" opacity="0.6"/>
+              
+              <!-- Tiny Cheek Sparkles -->
+              <circle cx="123" cy="160" r="1.5" fill="#FFFFFF"/>
+              <circle cx="191" cy="160" r="1.5" fill="#FFFFFF"/>
+
+              <!-- Cute Smiling Mouth -->
+              <path d="M152 168 Q160 176 168 168" stroke="#D36B7E" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <path d="M155 168 Q160 173 165 168" fill="#FF8A9E" opacity="0.7"/>
+
+              <!-- Small Cute Nose -->
+              <circle cx="160" cy="158" r="2" fill="#EAA793"/>
+
+              <!-- Blinking Animated Eyes Group -->
+              <g class="character-eyes">
+                <!-- Left Eye -->
+                <ellipse cx="134" cy="144" rx="8" ry="9" fill="#3D291C"/>
+                <circle cx="132" cy="141" r="3" fill="#FFFFFF"/>
+                <circle cx="136" cy="147" r="1.4" fill="#FFFFFF"/>
+                <!-- Upper Eyelashes Left -->
+                <path d="M124 139 Q134 133 144 139" stroke="#2B1A0E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                <path d="M141 136 L144 133" stroke="#2B1A0E" stroke-width="2" stroke-linecap="round"/>
+
+                <!-- Right Eye -->
+                <ellipse cx="186" cy="144" rx="8" ry="9" fill="#3D291C"/>
+                <circle cx="184" cy="141" r="3" fill="#FFFFFF"/>
+                <circle cx="188" cy="147" r="1.4" fill="#FFFFFF"/>
+                <!-- Upper Eyelashes Right -->
+                <path d="M176 139 Q186 133 196 139" stroke="#2B1A0E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+                <path d="M193 136 L196 133" stroke="#2B1A0E" stroke-width="2" stroke-linecap="round"/>
+              </g>
+
+              <!-- Eyebrows -->
+              <path d="M125 130 Q135 125 145 129" stroke="#543D2B" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <path d="M175 129 Q185 125 195 130" stroke="#543D2B" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+              <!-- Round Glasses (Specs) with Cute Pastel Metallic Wire & Glass Reflection -->
+              <g class="character-glasses">
+                <!-- Left Lens Glass Rim -->
+                <circle cx="134" cy="145" r="22" stroke="#68507B" stroke-width="3.5" fill="rgba(214, 234, 248, 0.22)"/>
+                <!-- Right Lens Glass Rim -->
+                <circle cx="186" cy="145" r="22" stroke="#68507B" stroke-width="3.5" fill="rgba(214, 234, 248, 0.22)"/>
+                <!-- Glasses Bridge -->
+                <path d="M156 142 Q160 139 164 142" stroke="#68507B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+                <!-- Glasses Outer Temples -->
+                <path d="M112 144 L104 142" stroke="#68507B" stroke-width="3" stroke-linecap="round"/>
+                <path d="M208 144 L216 142" stroke="#68507B" stroke-width="3" stroke-linecap="round"/>
+                <!-- Lens Sheen / Reflections -->
+                <path d="M123 134 Q132 131 141 134" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.75" fill="none"/>
+                <path d="M175 134 Q184 131 193 134" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.75" fill="none"/>
+              </g>
+            </g>
+
+            <!-- Front Hair: Cute Wavy Bangs & Cascading Locks -->
+            <g class="character-front-hair" fill="url(#hairGrad)">
+              <!-- Top volume & waves -->
+              <path d="M106 140 C100 100 120 78 160 78 C200 78 220 100 214 140 C206 112 186 98 160 98 C134 98 114 112 106 140 Z"/>
+              <!-- Left side wavy bangs -->
+              <path d="M110 120 C125 110 148 116 155 125 C145 118 128 116 110 125 Z"/>
+              <!-- Right side cute parted wave -->
+              <path d="M152 110 C175 106 200 118 212 135 C198 120 175 115 152 110 Z"/>
+              <!-- Left front wavy cascade -->
+              <path d="M108 135 C98 165 102 195 112 215 C116 200 115 170 112 145 Z"/>
+              <!-- Right front wavy cascade -->
+              <path d="M212 135 C222 165 218 195 208 215 C204 200 205 170 208 145 Z"/>
+              <!-- Cute pastel hair pin / flower clip on right side -->
+              <circle cx="204" cy="112" r="6" fill="#FADADD"/>
+              <circle cx="204" cy="112" r="2.5" fill="#FFF4CC"/>
+            </g>
+
+            <!-- Floating Sparkles around character -->
+            <g class="character-sparkles" fill="#FFF4CC">
+              <path d="M72 110 Q77 115 72 120 Q67 115 72 110 Z" opacity="0.9"/>
+              <path d="M248 115 Q253 120 248 125 Q243 120 248 115 Z" opacity="0.9"/>
+              <path d="M240 185 Q244 189 240 193 Q236 189 240 185 Z" opacity="0.8"/>
+              <path d="M80 185 Q84 189 80 193 Q76 189 80 185 Z" opacity="0.8"/>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Greeting Text & Introduction -->
+        <div class="hero-text-block">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Welcome to my world</span>
+          </div>
+
+          <!-- Animated Typing Heading -->
+          <h1 class="typing-heading">
+            <span id="typing-text" class="typed-content"></span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </h1>
+
+          <p class="hero-subtext">
+            I'm <strong class="highlight-name">Priyanshi Bhati</strong> — an aspiring quantitative thinker, AI/ML enthusiast, and B.Tech student exploring the confluence of mathematics, algorithms, and thoughtful creativity.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary" id="start-btn">
+              <span>Start exploring</span>
+              <span class="btn-icon">🌸</span>
+            </a>
+            <a href="#college" class="btn btn-secondary">
+              <span>View Achievements</span>
+              <span class="btn-icon">🏆</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-tags">
+            <span class="quick-tag">📍 Jodhpur ➔ Pune</span>
+            <span class="quick-tag">🤖 AI & ML @ NST</span>
+            <span class="quick-tag">📊 WorldQuant Gold</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- PAGE 2: ABOUT ME                               -->
+    <!-- ============================================== -->
+    <section class="page-section" id="about" data-page="1">
+      <div class="section-content about-content">
+        
+        <div class="section-header">
+          <span class="section-tag">🎀 Profile Card</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A cozy look into who I am, my academic foundation, and where I'm headed.</p>
+        </div>
+
+        <!-- Pastel Profile Card -->
+        <div class="profile-card">
+          <!-- Card Header Banner -->
+          <div class="profile-card-header">
+            <div class="profile-avatar-pill">
+              <span class="avatar-emoji">✨</span>
+              <div class="avatar-title-wrap">
+                <h3 class="profile-name-header">Priyanshi Bhati</h3>
+                <span class="profile-status-pill">Undergrad Researcher & Student</span>
+              </div>
+            </div>
+            <div class="profile-card-decor">
+              <span class="card-sparkle">✦</span>
+              <span class="card-sparkle">✧</span>
+            </div>
+          </div>
+
+          <!-- Interactive Info Rows with Pastel Accents -->
+          <div class="profile-info-grid">
+            
+            <!-- Row 1: Name -->
+            <div class="info-row" tabindex="0">
+              <div class="info-icon-box pastel-pink">
+                <span>👤</span>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Full Name</span>
+                <span class="info-value">Priyanshi Bhati</span>
+              </div>
+              <div class="row-indicator">🌸</div>
+            </div>
+
+            <!-- Row 2: Birthday -->
+            <div class="info-row" tabindex="0">
+              <div class="info-icon-box pastel-yellow">
+                <span>🎂</span>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Birthday</span>
+                <span class="info-value">16 / 04 / 2008</span>
+              </div>
+              <div class="row-indicator">🎈</div>
+            </div>
+
+            <!-- Row 3: Email -->
+            <div class="info-row" tabindex="0">
+              <div class="info-icon-box pastel-lavender">
+                <span>✉️</span>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Email Address</span>
+                <a href="mailto:priyanshibhati81@gmail.com" class="info-link" title="Click to send an email">
+                  priyanshibhati81@gmail.com
+                </a>
+              </div>
+              <button class="copy-email-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email address">
+                <span id="copy-icon">📋</span>
+                <span id="copy-text" class="copy-hint">Copy</span>
+              </button>
+            </div>
+
+            <!-- Row 4: Hometown -->
+            <div class="info-row" tabindex="0">
+              <div class="info-icon-box pastel-blue">
+                <span>📍</span>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Hometown</span>
+                <span class="info-value">Jodhpur, Rajasthan</span>
+                <span class="info-subtext">The historic Blue City of royal heritage</span>
+              </div>
+              <div class="row-indicator">🏰</div>
+            </div>
+
+            <!-- Row 5: School Education -->
+            <div class="info-row wide-row" tabindex="0">
+              <div class="info-icon-box pastel-mint">
+                <span>🏫</span>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Education So Far (Schooling)</span>
+                <span class="info-value">Kendriya Vidyalaya Sangathan (KVS), CBSE Board</span>
+                <div class="score-pills">
+                  <span class="score-pill">Class 10th: <strong>89%</strong></span>
+                  <span class="score-pill">Class 12th: <strong>83%</strong></span>
+                </div>
+              </div>
+              <div class="row-indicator">📚</div>
+            </div>
+
+            <!-- Row 6: Current Degree -->
+            <div class="info-row wide-row current-degree-row" tabindex="0">
+              <div class="info-icon-box pastel-cream">
+                <span>🎓</span>
+              </div>
+              <div class="info-details">
+                <span class="info-label">Current Degree Being Pursued</span>
+                <span class="info-value degree-highlight">B.Tech in Computer Science (Artificial Intelligence & Machine Learning)</span>
+                <span class="info-subtext institute-text">Newton School of Technology, Pune &bull; Batch 2026</span>
+              </div>
+              <div class="degree-badge">Active Scholar</div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Pill Highlights -->
+          <div class="profile-card-footer">
+            <span class="footer-chip">💡 Math & Logic</span>
+            <span class="footer-chip">🧠 Machine Learning</span>
+            <span class="footer-chip">📈 Quantitative Analysis</span>
+            <span class="footer-chip">✨ Continuous Growth</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- PAGE 3: COLLEGE LIFE & ACHIEVEMENTS            -->
+    <!-- ============================================== -->
+    <section class="page-section" id="college" data-page="2">
+      <div class="section-content achievements-content">
+        
+        <div class="section-header">
+          <span class="section-tag">🏆 Milestones & Growth</span>
+          <h2 class="section-title">College Life & Achievements</h2>
+          <p class="section-subtitle">
+            My college journey has been an exciting adventure of discovering quantitative modeling, exploring deep learning architectures, building solutions, and taking on international challenges with grit and enthusiasm.
+          </p>
+        </div>
+
+        <!-- Certificate Cards Grid -->
+        <div class="certificates-grid">
+          
+          <!-- 1. Gold Level Certificate -->
+          <article class="cert-card cert-gold" tabindex="0" data-img="assets/gold.png" data-title="WorldQuant Challenge: Gold Level" data-desc="Certificate of Accomplishment &bull; In recognition for reaching GOLD LEVEL in the WorldQuant Challenge &bull; Authorized and presented by Nitish Maini, Chief Strategy Officer of WorldQuant.">
+            <div class="cert-medal-badge gold-badge">
+              <span>🥇</span> Gold Level
+            </div>
+            <div class="cert-thumb-wrap">
+              <img src="assets/gold.png" alt="WorldQuant Challenge Gold Level Certificate of Accomplishment awarded to Priyanshi Bhati" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span class="view-btn">View Full Certificate 🔍</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">WorldQuant Challenge: Gold Level</h3>
+              <p class="cert-category">Certificate of Accomplishment</p>
+              <p class="cert-authority">
+                <strong>Authorized & presented by:</strong><br>
+                Nitish Maini, Chief Strategy Officer of WorldQuant
+              </p>
+            </div>
+          </article>
+
+          <!-- 2. Silver Level Certificate -->
+          <article class="cert-card cert-silver" tabindex="0" data-img="assets/silver.png" data-title="WorldQuant Challenge: Silver Level" data-desc="Certificate of Accomplishment &bull; In recognition for reaching SILVER LEVEL in the WorldQuant Challenge &bull; Authorized and presented by Nitish Maini, Chief Strategy Officer of WorldQuant.">
+            <div class="cert-medal-badge silver-badge">
+              <span>🥈</span> Silver Level
+            </div>
+            <div class="cert-thumb-wrap">
+              <img src="assets/silver.png" alt="WorldQuant Challenge Silver Level Certificate of Accomplishment awarded to Priyanshi Bhati" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span class="view-btn">View Full Certificate 🔍</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">WorldQuant Challenge: Silver Level</h3>
+              <p class="cert-category">Certificate of Accomplishment</p>
+              <p class="cert-authority">
+                <strong>Authorized & presented by:</strong><br>
+                Nitish Maini, Chief Strategy Officer of WorldQuant
+              </p>
+            </div>
+          </article>
+
+          <!-- 3. Bronze Level Certificate -->
+          <article class="cert-card cert-bronze" tabindex="0" data-img="assets/bronze.png" data-title="WorldQuant Challenge: Bronze Level" data-desc="Certificate of Accomplishment &bull; In recognition for reaching BRONZE LEVEL in the WorldQuant Challenge &bull; Authorized and presented by Nitish Maini, Chief Strategy Officer of WorldQuant.">
+            <div class="cert-medal-badge bronze-badge">
+              <span>🥉</span> Bronze Level
+            </div>
+            <div class="cert-thumb-wrap">
+              <img src="assets/bronze.png" alt="WorldQuant Challenge Bronze Level Certificate of Accomplishment awarded to Priyanshi Bhati" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span class="view-btn">View Full Certificate 🔍</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">WorldQuant Challenge: Bronze Level</h3>
+              <p class="cert-category">Certificate of Accomplishment</p>
+              <p class="cert-authority">
+                <strong>Authorized & presented by:</strong><br>
+                Nitish Maini, Chief Strategy Officer of WorldQuant
+              </p>
+            </div>
+          </article>
+
+          <!-- 4. Google Student Ambassador Program Build Night Certificate -->
+          <article class="cert-card cert-google" tabindex="0" data-img="assets/google_ambassador.jpg" data-title="Fund My Crazy: Build Night &bull; Google Student Ambassador Program" data-desc="Certificate of Participation &bull; Google Student Ambassador Program 2026 at Newton School of Technology &bull; Product Understanding Initiative. Reflects curiosity, initiative, and a strong passion for learning.">
+            <div class="cert-medal-badge google-badge">
+              <span>🌟</span> Google Community
+            </div>
+            <div class="cert-thumb-wrap">
+              <img src="assets/google_ambassador.jpg" alt="Google Student Ambassador Program Fund My Crazy Build Night Certificate of Participation awarded to Priyanshi Bhati" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span class="view-btn">View Full Certificate 🔍</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">Fund My Crazy: Build Night</h3>
+              <p class="cert-category">Google Student Ambassador Program 2026</p>
+              <p class="cert-authority">
+                <strong>Conducted at:</strong><br>
+                Newton School of Technology &bull; Product Understanding
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- PAGE 4: HOBBIES                                -->
+    <!-- ============================================== -->
+    <section class="page-section" id="hobbies" data-page="3">
+      <div class="section-content hobbies-content">
+        
+        <div class="section-header">
+          <span class="section-tag">🎨 Beyond Academics</span>
+          <h2 class="section-title">My Hobbies & Passions</h2>
+          <p class="section-subtitle">
+            What keeps my heart smiling and my soul energized when the laptops close and the mind wanders freely.
+          </p>
+        </div>
+
+        <!-- 4 Pastel Hobby Cards -->
+        <div class="hobbies-grid">
+          
+          <!-- Hobby 1: Table Tennis -->
+          <div class="hobby-card hobby-mint" tabindex="0">
+            <div class="hobby-emoji-wrap bounce-1">
+              <span class="hobby-emoji">🏓</span>
+            </div>
+            <h3 class="hobby-name">Playing Table Tennis</h3>
+            <p class="hobby-desc">
+              Fast-paced rallies, precision spins, and lightning-fast reflexes! Table tennis is my go-to sport to refresh my mind, stay physically nimble, and cultivate sharp focus under pressure.
+            </p>
+            <div class="hobby-tag">Agility &bull; Strategy &bull; Fun</div>
+          </div>
+
+          <!-- Hobby 2: Music -->
+          <div class="hobby-card hobby-lavender" tabindex="0">
+            <div class="hobby-emoji-wrap bounce-2">
+              <span class="hobby-emoji">🎧</span>
+            </div>
+            <h3 class="hobby-name">Listening to Music</h3>
+            <p class="hobby-desc">
+              From calming lo-fi soundscapes while writing algorithms to soulful melodies and upbeat tunes that elevate my spirits. Music is my constant background companion in every season of life.
+            </p>
+            <div class="hobby-tag">Lo-Fi &bull; Soulful &bull; Harmony</div>
+          </div>
+
+          <!-- Hobby 3: Dancing -->
+          <div class="hobby-card hobby-pink" tabindex="0">
+            <div class="hobby-emoji-wrap bounce-3">
+              <span class="hobby-emoji">💃</span>
+            </div>
+            <h3 class="hobby-name">Dancing</h3>
+            <p class="hobby-desc">
+              A spontaneous burst of rhythm, joy, and expression! Moving to the beat brings out pure happiness, lets creative thoughts untangle, and brings vibrant energy to everyday moments.
+            </p>
+            <div class="hobby-tag">Rhythm &bull; Expression &bull; Grace</div>
+          </div>
+
+          <!-- Hobby 4: Public Interaction -->
+          <div class="hobby-card hobby-blue" tabindex="0">
+            <div class="hobby-emoji-wrap bounce-4">
+              <span class="hobby-emoji">🗣️</span>
+            </div>
+            <h3 class="hobby-name">Public Interaction</h3>
+            <p class="hobby-desc">
+              Meeting new people, exchanging stories, listening to different perspectives, and building warm connections. Engaging with diverse communities constantly broadens my horizons.
+            </p>
+            <div class="hobby-tag">Networking &bull; Empathy &bull; Stories</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- PAGE 5: THANK YOU                              -->
+    <!-- ============================================== -->
+    <section class="page-section" id="thankyou" data-page="4">
+      <div class="section-content thanks-content">
+        
+        <!-- Dreamy Thank You Card -->
+        <div class="thanks-card">
+          
+          <div class="thanks-confetti-container" id="confetti-container" aria-hidden="true">
+            <!-- Confetti particles dynamically generated or CSS floating -->
+            <span class="floating-heart heart-1">💖</span>
+            <span class="floating-heart heart-2">🌸</span>
+            <span class="floating-heart heart-3">✨</span>
+            <span class="floating-heart heart-4">💕</span>
+            <span class="floating-heart heart-5">🎀</span>
+          </div>
+
+          <div class="thanks-badge">
+            <span>💌 With Gratitude</span>
+          </div>
+
+          <h2 class="thanks-title">Thank you so much for visiting my portfolio! 💖</h2>
+          
+          <p class="thanks-message">
+            I hope you enjoyed getting to know me, my academic journey, and the dreams I'm working toward. Whether you want to discuss machine learning, quant modeling, table tennis, or just say hello — my inbox is always open!
+          </p>
+
+          <!-- Interactive Confetti Burst Button -->
+          <div class="sparkle-interactive-wrap">
+            <button class="btn btn-sparkle" id="burst-confetti-btn" aria-label="Trigger celebration pastel confetti">
+              <span>Spread Pastel Joy ✨</span>
+              <span class="sparkle-emoji">🎉</span>
+            </button>
+          </div>
+
+          <!-- Contact Information & Links -->
+          <div class="thanks-contact-box">
+            <div class="contact-pill-item">
+              <span class="contact-icon">📧</span>
+              <div class="contact-text">
+                <span class="contact-label">Let's Connect</span>
+                <a href="mailto:priyanshibhati81@gmail.com" class="contact-email-link">priyanshibhati81@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-pill-item">
+              <span class="contact-icon">📍</span>
+              <div class="contact-text">
+                <span class="contact-label">Locations</span>
+                <span class="contact-val">Jodhpur &bull; Pune, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Back to Top Button -->
+          <div class="thanks-actions">
+            <a href="#home" class="btn btn-back-top" id="back-to-top-btn" aria-label="Back to top">
+              <span class="top-arrow">↑</span>
+              <span>Back to Top 🌸</span>
+            </a>
+          </div>
+
+          <!-- Footer note -->
+          <footer class="portfolio-footer">
+            <p>Designed with gentle pastel dreams &bull; Priyanshi Bhati &bull; 2026</p>
+          </footer>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lightbox Modal for Full Certificate Previews -->
+  <div class="lightbox-modal" id="cert-lightbox" role="dialog" aria-modal="true" aria-label="Certificate Image Viewer" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-window">
+      <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close Certificate Viewer">&times;</button>
+      <div class="lightbox-image-container">
+        <img src="" alt="Full view certificate" id="lightbox-image" class="lightbox-image">
+      </div>
+      <div class="lightbox-info">
+        <h3 id="lightbox-title" class="lightbox-title"></h3>
+        <p id="lightbox-desc" class="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Copying Email -->
+  <div class="toast-notification" id="copy-toast" role="status" aria-live="polite">
+    ✨ Email copied to clipboard!
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
