@@ -56,8 +56,10 @@
         <li><a href="#home" class="nav-pill active" data-index="0"><span class="pill-icon">✨</span> Home</a></li>
         <li><a href="#about" class="nav-pill" data-index="1"><span class="pill-icon">🎀</span> About</a></li>
         <li><a href="#college" class="nav-pill" data-index="2"><span class="pill-icon">🎓</span> College Life</a></li>
-        <li><a href="#hobbies" class="nav-pill" data-index="3"><span class="pill-icon">🎨</span> Hobbies</a></li>
-        <li><a href="#thankyou" class="nav-pill" data-index="4"><span class="pill-icon">💖</span> Thanks</a></li>
+        <li><a href="#safepath" class="nav-pill" data-index="3"><span class="pill-icon">🛡️</span> SafePath</a></li>
+        <li><a href="#projects" class="nav-pill" data-index="4"><span class="pill-icon">💻</span> Projects</a></li>
+        <li><a href="#hobbies" class="nav-pill" data-index="5"><span class="pill-icon">🎨</span> Hobbies</a></li>
+        <li><a href="#thankyou" class="nav-pill" data-index="6"><span class="pill-icon">💖</span> Thanks</a></li>
       </ul>
     </nav>
   </header>
@@ -73,10 +75,16 @@
     <button class="side-dot" data-index="2" aria-label="Go to College Life section">
       <span class="dot-tooltip">College Life</span>
     </button>
-    <button class="side-dot" data-index="3" aria-label="Go to Hobbies section">
+    <button class="side-dot" data-index="3" aria-label="Go to SafePath Featured Project section">
+      <span class="dot-tooltip">SafePath</span>
+    </button>
+    <button class="side-dot" data-index="4" aria-label="Go to Projects section">
+      <span class="dot-tooltip">Projects</span>
+    </button>
+    <button class="side-dot" data-index="5" aria-label="Go to Hobbies section">
       <span class="dot-tooltip">Hobbies</span>
     </button>
-    <button class="side-dot" data-index="4" aria-label="Go to Thank You section">
+    <button class="side-dot" data-index="6" aria-label="Go to Thank You section">
       <span class="dot-tooltip">Thanks</span>
     </button>
   </aside>
@@ -325,18 +333,6 @@
               <div class="row-indicator">🌸</div>
             </div>
 
-            <!-- Row 2: Birthday -->
-            <div class="info-row" tabindex="0">
-              <div class="info-icon-box pastel-yellow">
-                <span>🎂</span>
-              </div>
-              <div class="info-details">
-                <span class="info-label">Birthday</span>
-                <span class="info-value">16 / 04 / 2008</span>
-              </div>
-              <div class="row-indicator">🎈</div>
-            </div>
-
             <!-- Row 3: Email -->
             <div class="info-row" tabindex="0">
               <div class="info-icon-box pastel-lavender">
@@ -517,9 +513,164 @@
     </section>
 
     <!-- ============================================== -->
-    <!-- PAGE 4: HOBBIES                                -->
+    <!-- PAGE 4: FEATURED PROJECT - SAFEPATH            -->
     <!-- ============================================== -->
-    <section class="page-section" id="hobbies" data-page="3">
+    <section class="page-section" id="safepath" data-page="3">
+      <div class="section-content safepath-content">
+
+        <div class="section-header safepath-header">
+          <span class="section-tag safepath-badge">🛡️ Featured Project &bull; Best Till Now &bull; CoNSTruct 2.0</span>
+          <h2 class="section-title">SafePath</h2>
+          <p class="section-subtitle">
+            For <strong>CoNSTruct 2.0</strong>, <strong>Team PAN MAN (NST-ADYPU)</strong> built a ride and route planner that puts safety first, not just speed.
+          </p>
+
+          <div class="safepath-hero-bar">
+            <a class="btn btn-primary safepath-cta" href="https://safe-path.replit.app/" target="_blank" rel="noopener noreferrer">
+              <span>🔗 Try SafePath Live</span>
+              <span>↗</span>
+            </a>
+            <div class="safepath-stack">
+              <span class="stack-pill">🗺️ Leaflet</span>
+              <span class="stack-pill">🌍 OpenStreetMap</span>
+              <span class="stack-pill">⚡ Supabase</span>
+              <span class="stack-pill">🚀 Replit</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- What SafePath Does: 6 Feature Cards -->
+        <div class="safepath-features-grid">
+          <div class="sp-feature-card sp-mint">
+            <div class="sp-feature-icon">🟢</div>
+            <h3>Safer routes, ranked</h3>
+            <p>Every trip shows 2 to 3 routes with a 0 to 100 safety score and the reasons behind it (visibility, activity, exposure, nearby help points).</p>
+          </div>
+
+          <div class="sp-feature-card sp-yellow">
+            <div class="sp-feature-icon">💸</div>
+            <h3>Fares before you book</h3>
+            <p>Bike, auto and cab estimates under every route, with carpool split fares.</p>
+          </div>
+
+          <div class="sp-feature-card sp-pink">
+            <div class="sp-feature-icon">🤝</div>
+            <h3>Carpool</h3>
+            <p>Share a ride and split the fare, with a women-only option.</p>
+          </div>
+
+          <div class="sp-feature-card sp-blue">
+            <div class="sp-feature-icon">📍</div>
+            <h3>Live journey sharing</h3>
+            <p>A private live link on WhatsApp or SMS for your family.</p>
+          </div>
+
+          <div class="sp-feature-card sp-lavender">
+            <div class="sp-feature-icon">🚨</div>
+            <h3>One-tap SOS &amp; route watch</h3>
+            <p>If you drift off route, SafePath checks in with you first.</p>
+          </div>
+
+          <div class="sp-feature-card sp-mint">
+            <div class="sp-feature-icon">📢</div>
+            <h3>Community reports</h3>
+            <p>Anyone can flag a poorly lit or unsafe spot, and routes passing nearby lose points.</p>
+          </div>
+        </div>
+
+        <!-- Experience, Integration & Next Steps -->
+        <div class="safepath-story-grid">
+          <div class="sp-story-card">
+            <h4>🚕 Works Alongside Your Everyday Apps</h4>
+            <p>
+              It works alongside the apps people already use. You pick a safer route on SafePath, book in <strong>Uber, Ola or Rapido</strong>, then start a safe trip so your family can follow along.
+            </p>
+          </div>
+
+          <div class="sp-story-card">
+            <h4>💡 My Experience &amp; Takeaways</h4>
+            <p>
+              Building this taught us to scope ruthlessly, be honest about what’s an MVP (our scores are indicative, not guarantees), and ship something people can actually use.
+            </p>
+          </div>
+
+          <div class="sp-story-card">
+            <h4>🚀 What’s Next</h4>
+            <p>
+              Next up: real SMS alerts, a trained safety model, and expanding to more cities.
+            </p>
+          </div>
+        </div>
+
+        <!-- Credits & Hashtags -->
+        <div class="safepath-footer-card">
+          <p class="sp-credits">
+            🙌 Huge thanks to <strong>Replit</strong> and <strong>Syed Adil</strong> for the guidance and the opportunity, and to <strong>Newton School of Technology (NST)</strong> and <strong>The Product Folks</strong> for backing this.
+          </p>
+          <div class="sp-hashtags">
+            <span>#CoNSTruct2</span>
+            <span>#Replit</span>
+            <span>#BuildForImpact</span>
+            <span>#WomenSafety</span>
+            <span>#ProductManagement</span>
+            <span>#AI</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- PAGE 5: PROJECTS                               -->
+    <!-- ============================================== -->
+    <section class="page-section" id="projects" data-page="4">
+      <div class="section-content projects-content">
+
+        <div class="section-header">
+          <span class="section-tag">💻 More Things I've Built</span>
+          <h2 class="section-title">My Projects</h2>
+          <p class="section-subtitle">
+            Other projects I've built and shipped. Click any card to try it live!
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Mini Google 1998 -->
+          <a class="hobby-card project-card hobby-blue" href="https://mminigooglee-qorfga3kv-priyanshibhati.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div class="hobby-emoji-wrap bounce-1">
+              <span class="hobby-emoji">🔍</span>
+            </div>
+            <h3 class="hobby-name">Mini Google (1998)</h3>
+            <p class="hobby-desc">
+              A mini model of Google as it was in 1998, recreating the original search engine experience.
+            </p>
+            <div class="hobby-tag">Search &bull; Web &bull; Retro</div>
+            <span class="project-link">View Live Project ↗</span>
+          </a>
+
+          <!-- Project 2: Tokenizer -->
+          <a class="hobby-card project-card hobby-lavender" href="https://tokenize-livid.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div class="hobby-emoji-wrap bounce-2">
+              <span class="hobby-emoji">🧩</span>
+            </div>
+            <h3 class="hobby-name">Tokenizer</h3>
+            <p class="hobby-desc">
+              A tokenizer that breaks text down into tokens, the building blocks language models work with.
+            </p>
+            <div class="hobby-tag">NLP &bull; Text &bull; Tokens</div>
+            <span class="project-link">View Live Project ↗</span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- PAGE 6: HOBBIES                                -->
+    <!-- ============================================== -->
+    <section class="page-section" id="hobbies" data-page="5">
       <div class="section-content hobbies-content">
         
         <div class="section-header">
@@ -587,9 +738,9 @@
     </section>
 
     <!-- ============================================== -->
-    <!-- PAGE 5: THANK YOU                              -->
+    <!-- PAGE 7: THANK YOU                              -->
     <!-- ============================================== -->
-    <section class="page-section" id="thankyou" data-page="4">
+    <section class="page-section" id="thankyou" data-page="6">
       <div class="section-content thanks-content">
         
         <!-- Dreamy Thank You Card -->
